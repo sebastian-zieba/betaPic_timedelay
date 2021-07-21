@@ -1,0 +1,27 @@
+ ---------------------------------------------------------
+ --          Results of the Least-Squares-Fit:          --
+ ---------------------------------------------------------
+
+
+    Cannot calculate uncertainties from the
+    matrix left by the least-squares routine.
+
+    Please perform a Monte Carlo Simulation
+    for a reliable determination of uncertainties!
+
+
+    Instead, analytical uncertainties will be displayed:
+    (Please consult Period04 help for more information.)
+
+ ---------------------------------------------------------
+ --       Analytical results for an ideal case:         --
+ ---------------------------------------------------------
+
+ Nr.	Freq. sigma	Ampl. sigma	Pha. sigma
+ ---------------------------------------------------------
+ F2	9.681722239e-05	5.867148939e-05	0.006640657167
+ F3	0.0001192550510	5.867148939e-05	0.008179659463
+ F1	9.211652662e-05	5.867148939e-05	0.006318238198
+ F4	0.0002218339935	5.867148939e-05	0.01521551086
+
+

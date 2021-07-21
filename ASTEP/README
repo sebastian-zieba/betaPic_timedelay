@@ -1,0 +1,28 @@
+bjd_bp_flux_2017.csv : 2017 ASTEP aperture flux of the beta Pictoris field (csv file)
+bjd_bp_flux_2018.csv : 2018 ASTEP aperture flux of the beta Pictoris field (csv file)
+betapic_field.pdf    : Field (1 deg x 1deg) of beta Pic, showing positions of the 18 stars for which aperture photometry was calculated
+
+
+-----
+Header of each csv file
+
+BJD,EXPTIME,SUNELEV,AIRMASS,TRCKQLT,SKY,RPHOT,XS1,YS1,FLUX1,FSKY1,....   ....       ....,XS18,YS18,FLUX18,FSKY18
+
+BJD: Barycentric Julian Day
+EXPTIME: Exposure time (s)
+SUNELEV: Sun elevation (degrees)
+AIRMASS: Air mass
+TRCKQLT: Tracking Quality : 0 = bad guiding, 1 = good guiding
+SKY: Sky luminosity (ADU) 
+RPHOT: Aperture radius (Pixels)
+XS1,YS1: Position of the star 1 ( Beta Pic) on the CCD
+FLUX1: Aperture flux (ADU) of the star 1 (Beta Pic)
+FSKY1: Aperture Flux (ADU) of the Sky close to the star 1 (aperture of the sky = 0.5 x aperture of the star)
+To calculate the flux of the star 1 : FLUX = FLUX1-4.*FSKY1
+....
+
+....
+XS18,YS18: Position of the star 18 (see betapic_field.pdf) on the CCD
+FLUX18: Aperture flux (ADU) of the star 18
+FSKY18: Aperture Flux (ADU) of the Sky close to the star 18 (aperture of the sky = 0.5 x aperture of the star)
+To calcule the flux of the star 18 : FLUX = FLUX18-4.*FSKY18
